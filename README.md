@@ -1,36 +1,98 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Digital Living Room
+
+A modular personal website that refuses the split between a sterile portfolio and a separate blog. Each section is a "room" with its own mood — projects feel sharper, writing feels warm and typographic, photos feel gallery-like — while sharing a cohesive design system underneath.
+
+## Tech Stack
+
+- **Next.js 16** (App Router, Server Components)
+- **React 19** + **TypeScript**
+- **Tailwind CSS v4** with OKLCH color tokens
+- **Velite** for type-safe content (MDX + YAML)
+- **Radix UI** primitives with shadcn/ui patterns
+- **next-themes** for warm/night theme switching
+
+## Architecture
+
+### Mood System
+
+Every section has a mood defined via CSS custom properties scoped with `data-mood` attributes. Wrapping a page in `<SectionLayout mood="projects">` changes the accent color, card rotation, and hover behavior — without touching component code.
+
+### Content Pipeline
+
+Content lives in `content/` as YAML and MDX:
+
+```
+content/
+  meta/
+    site.yaml        # Name, bio, motto, social links
+    currently.yaml   # What I'm building/reading/listening to
+  projects/
+    *.mdx            # Project pages with frontmatter + body
+```
+
+Velite validates schemas at build time, compiles MDX, and outputs typed JSON to `.velite/`. Helper functions in `src/lib/content.ts` load this data with try/catch fallbacks.
+
+### Sections (Rooms)
+
+| Room | Glyph | Status |
+|------|-------|--------|
+| Projects | ◆ | Built |
+| Writing | ▲ | Planned |
+| Bookshelf | ◎ | Planned |
+| Playlist | ♫ | Planned |
+| Speaking | ⬡ | Planned |
+| Contributions | ◇ | Planned |
+| Videos | ▶ | Planned |
+| Events | ✦ | Planned |
+| Media | ❋ | Planned |
+| Photos | □ | Planned |
+| WIP | ⚙ | Planned |
 
 ## Getting Started
 
-First, run the development server:
-
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000). The dev server uses webpack (required for the Velite plugin).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Adding Content
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### New project
 
-## Learn More
+Create `content/projects/my-project.mdx`:
 
-To learn more about Next.js, take a look at the following resources:
+```mdx
+---
+title: "My Project"
+slug: "my-project"
+date: "2025-01-01"
+status: "active"
+role: "Creator"
+tags: ["typescript", "react"]
+summary: "A short description."
+featured: false
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Write your project details here in MDX.
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Update currently items
 
-## Deploy on Vercel
+Edit `content/meta/currently.yaml`:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```yaml
+- label: "Building"
+  value: "Something cool"
+  emoji: "\U0001F680"
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Scripts
+
+| Command | Description |
+|---------|-------------|
+| `npm run dev` | Dev server (webpack + Velite watch) |
+| `npm run build` | Production build |
+| `npm start` | Serve production build |
+| `npm run lint` | ESLint |
