@@ -1,0 +1,229 @@
+@import "tailwindcss";
+
+/* ===== WARM THEME (DEFAULT) ===== */
+:root,
+[data-theme="warm"] {
+  --background: oklch(0.97 0.008 85);
+  --foreground: oklch(0.2 0.015 60);
+  --muted: oklch(0.92 0.005 85);
+  --muted-foreground: oklch(0.5 0.01 60);
+  --accent: oklch(0.65 0.18 25);
+  --accent-foreground: oklch(0.98 0.005 85);
+  --accent-secondary: oklch(0.75 0.12 85);
+  --border: oklch(0.88 0.01 85);
+  --ring: oklch(0.65 0.18 25);
+  --card: oklch(0.96 0.006 85);
+  --card-foreground: oklch(0.2 0.015 60);
+
+  --radius: 0.5rem;
+  --card-rotate: 0deg;
+  --card-rotate-hover: 0deg;
+}
+
+/* ===== NIGHT THEME ===== */
+[data-theme="night"] {
+  --background: oklch(0.13 0.015 260);
+  --foreground: oklch(0.92 0.008 85);
+  --muted: oklch(0.2 0.01 260);
+  --muted-foreground: oklch(0.65 0.008 85);
+  --accent: oklch(0.72 0.16 25);
+  --accent-foreground: oklch(0.13 0.015 260);
+  --accent-secondary: oklch(0.8 0.1 85);
+  --border: oklch(0.25 0.01 260);
+  --ring: oklch(0.72 0.16 25);
+  --card: oklch(0.17 0.012 260);
+  --card-foreground: oklch(0.92 0.008 85);
+}
+
+/* ===== SECTION MOOD OVERRIDES ===== */
+[data-mood="projects"] {
+  --accent: oklch(0.65 0.18 25);
+  --card-rotate: -0.4deg;
+  --card-rotate-hover: 0deg;
+}
+[data-mood="writing"] {
+  --accent: oklch(0.55 0.12 260);
+  --card-rotate: 0.3deg;
+  --card-rotate-hover: -0.1deg;
+}
+[data-mood="bookshelf"] {
+  --accent: oklch(0.7 0.14 85);
+  --card-rotate: 0deg;
+  --card-rotate-hover: 0.5deg;
+}
+[data-mood="playlist"] {
+  --accent: oklch(0.62 0.2 330);
+  --card-rotate: -0.2deg;
+  --card-rotate-hover: 0.2deg;
+}
+[data-mood="speaking"] {
+  --accent: oklch(0.6 0.15 200);
+  --card-rotate: 0deg;
+}
+[data-mood="contributions"] {
+  --accent: oklch(0.58 0.16 145);
+  --card-rotate: 0deg;
+}
+[data-mood="videos"] {
+  --accent: oklch(0.68 0.17 40);
+  --card-rotate: 0deg;
+}
+[data-mood="events"] {
+  --accent: oklch(0.63 0.14 170);
+  --card-rotate: 0deg;
+}
+[data-mood="media"] {
+  --accent: oklch(0.67 0.13 290);
+  --card-rotate: 0deg;
+}
+[data-mood="photos"] {
+  --accent: oklch(0.72 0.1 55);
+  --card-rotate: 0.2deg;
+}
+[data-mood="wip"] {
+  --accent: oklch(0.6 0.22 60);
+  --card-rotate: -0.6deg;
+  --card-rotate-hover: 0.3deg;
+}
+
+/* ===== TAILWIND THEME REGISTRATION ===== */
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent-secondary: var(--accent-secondary);
+  --color-border: var(--border);
+  --color-ring: var(--ring);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: var(--radius);
+  --radius-lg: calc(var(--radius) + 4px);
+}
+
+/* ===== BASE STYLES ===== */
+body {
+  background: var(--background);
+  color: var(--foreground);
+}
+
+/* ===== SELECTION ===== */
+::selection {
+  background: var(--accent);
+  color: var(--accent-foreground);
+}
+
+/* ===== SCROLL ===== */
+html {
+  scroll-behavior: smooth;
+}
+
+/* ===== PROSE (MDX CONTENT) ===== */
+.prose-custom {
+  font-family: var(--font-body);
+  font-size: 0.9375rem;
+  line-height: 1.75;
+  color: var(--foreground);
+}
+
+.prose-custom h2 {
+  font-family: var(--font-heading);
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  color: var(--foreground);
+}
+
+.prose-custom h3 {
+  font-family: var(--font-heading);
+  font-size: 1.25rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+  color: var(--foreground);
+}
+
+.prose-custom p {
+  margin-bottom: 1.25rem;
+}
+
+.prose-custom a {
+  color: var(--accent);
+  text-decoration: underline;
+  text-decoration-color: var(--accent);
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
+  transition: text-decoration-color 0.2s;
+}
+
+.prose-custom a:hover {
+  text-decoration-color: currentColor;
+}
+
+.prose-custom strong {
+  font-weight: 600;
+  color: var(--foreground);
+}
+
+.prose-custom code {
+  font-family: var(--font-body);
+  font-size: 0.85em;
+  background: var(--muted);
+  padding: 0.15em 0.35em;
+  border-radius: 0.25rem;
+}
+
+.prose-custom pre {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1rem 1.25rem;
+  overflow-x: auto;
+  margin-bottom: 1.5rem;
+}
+
+.prose-custom pre code {
+  background: transparent;
+  padding: 0;
+}
+
+.prose-custom ul {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  margin-bottom: 1.25rem;
+}
+
+.prose-custom ol {
+  list-style-type: decimal;
+  padding-left: 1.5rem;
+  margin-bottom: 1.25rem;
+}
+
+.prose-custom li {
+  margin-bottom: 0.375rem;
+}
+
+.prose-custom blockquote {
+  border-left: 2px solid var(--accent);
+  padding-left: 1rem;
+  font-style: italic;
+  color: var(--muted-foreground);
+  margin-bottom: 1.25rem;
+}
+
+.prose-custom hr {
+  border-color: var(--border);
+  margin: 2rem 0;
+}
+
+.prose-custom img {
+  border-radius: var(--radius);
+  margin: 1.5rem 0;
+}
