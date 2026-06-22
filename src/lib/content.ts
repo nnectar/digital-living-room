@@ -98,3 +98,81 @@ export function getProjectBySlug(slug: string): Project | null {
   const projects = getProjects();
   return projects.find((p) => p.slug === slug) ?? null;
 }
+
+// ===== Work =====
+
+export interface WorkEntry {
+  id: string;
+  type: "role" | "education" | "project";
+  title: string;
+  organization: string;
+  duration: string;
+  description: string;
+  tags: string[];
+  city?: string;
+}
+
+export function getWork(): WorkEntry[] {
+  try {
+    // eslint-disable-next-line @typescript-eslint/no-require-imports
+    const { work } = require("#site/content") as {
+      work: WorkEntry[];
+    };
+    return work;
+  } catch {
+    return [];
+  }
+}
+
+// ===== Events =====
+
+export interface EventEntry {
+  id: string;
+  name: string;
+  role: string;
+  year: string;
+  era: string;
+  organization: string;
+  city?: string;
+  participants?: number;
+  description: string;
+  tags: string[];
+}
+
+export function getEvents(): EventEntry[] {
+  try {
+    // eslint-disable-next-line @typescript-eslint/no-require-imports
+    const { events } = require("#site/content") as {
+      events: EventEntry[];
+    };
+    return events;
+  } catch {
+    return [];
+  }
+}
+
+// ===== Speaking =====
+
+export interface SpeakingEntry {
+  id: string;
+  name: string;
+  role: string;
+  city: string;
+  year: string;
+  description: string;
+  tags: string[];
+  relatedOrgs?: string[];
+  images: string[];
+}
+
+export function getSpeaking(): SpeakingEntry[] {
+  try {
+    // eslint-disable-next-line @typescript-eslint/no-require-imports
+    const { speaking } = require("#site/content") as {
+      speaking: SpeakingEntry[];
+    };
+    return speaking;
+  } catch {
+    return [];
+  }
+}

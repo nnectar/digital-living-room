@@ -1,0 +1,197 @@
+# ─── COLDS Collective — 2022 ────────────────────────────
+
+- id: catalyst-lagos
+  name: Catalyst Lagos
+  role: Producer
+  year: "2022"
+  era: COLDS Collective — 2022
+  organization: COLDS Collective
+  city: Lagos
+  description: "A Web3 onboarding event in Lagos focused on bridging local creative communities into decentralized ecosystems. Designed to introduce builders and artists to onchain tools and collaboration frameworks."
+  tags: [technology, culture, community, builder-ecosystems, cultural-literacy]
+
+# ─── NEAR Hacks US Tour — Banyan Collective, 2022 ──────
+
+- id: near-hacks-nyc
+  name: NEAR Hacks NYC
+  role: Lead Producer
+  year: "2022"
+  era: NEAR Hacks US Tour — Banyan Collective, 2022
+  organization: Banyan Collective
+  city: New York
+  participants: 100
+  description: "Multi-day builder event featuring workshops, mentorship sessions, and demo presentations from emerging NEAR ecosystem projects."
+  tags: [technology, builder-ecosystems, community]
+
+- id: sf-builder-day
+  name: SF Builder Day
+  role: Producer
+  year: "2022"
+  era: NEAR Hacks US Tour — Banyan Collective, 2022
+  organization: Banyan Collective
+  city: San Francisco
+  description: "A focused builder day in San Francisco as part of the NEAR Hacks US Tour, bringing together West Coast developers for hands-on building and ecosystem exploration."
+  tags: [technology, builder-ecosystems]
+
+# ─── Hackbox — NEAR DevHub, 2023–2025 ──────────────────
+
+- id: near-hacks-sf
+  name: NEAR Hacks SF
+  role: Producer
+  year: "2023"
+  era: Hackbox — NEAR DevHub, 2023–2025
+  organization: NEAR DevHub
+  city: San Francisco
+  description: "San Francisco hackathon under the Hackbox program, bringing together builders for focused sprints on NEAR Protocol tooling and applications."
+  tags: [technology, builder-ecosystems]
+
+- id: webfusion-lagos
+  name: WebFusion Lagos
+  role: Producer
+  year: "2023"
+  era: Hackbox — NEAR DevHub, 2023–2025
+  organization: NEAR DevHub
+  city: Lagos
+  participants: 112
+  description: "A Lagos-based hackathon fusing Web2 and Web3 development paradigms, designed to lower the barrier of entry for African developers building on decentralized infrastructure."
+  tags: [technology, culture, builder-ecosystems, community, cultural-literacy]
+
+- id: art-innovation-tulsa
+  name: Art and Innovation Tulsa
+  role: Producer
+  year: "2023"
+  era: Hackbox — NEAR DevHub, 2023–2025
+  organization: NEAR DevHub
+  city: Tulsa
+  description: "An interdisciplinary event in Tulsa exploring the intersection of art, technology, and community innovation."
+  tags: [technology, art, culture, community, cultural-literacy]
+
+- id: open-web-house-cdmx
+  name: Open Web House CDMX
+  role: Producer
+  year: "2023–2024"
+  era: Hackbox — NEAR DevHub, 2023–2025
+  organization: NEAR DevHub
+  city: Mexico City
+  description: "A recurring builder house in Mexico City bringing together Latin American developers and global contributors to collaborate on open web infrastructure."
+  tags: [technology, builder-ecosystems, community, public-goods]
+
+- id: hack-o-ween
+  name: "Hack-o-ween: Civic Tech Buildathon"
+  role: Producer
+  year: "2024"
+  era: Hackbox — NEAR DevHub, 2023–2025
+  organization: NEAR DevHub
+  participants: 55
+  description: "A civic technology buildathon focused on building tools for community governance and public goods."
+  tags: [governance, technology, public-goods, community]
+
+- id: near-inter-university
+  name: NEAR Inter-University Hacker House
+  role: Producer
+  year: "2024"
+  era: Hackbox — NEAR DevHub, 2023–2025
+  organization: NEAR DevHub
+  description: "A university-focused hacker house connecting student builders across institutions for collaborative development sprints on the NEAR ecosystem."
+  tags: [technology, builder-ecosystems, community]
+
+- id: zcash-near-intents
+  name: Zcash x NEAR Intents Hackathon
+  role: Producer
+  year: "2024–2025"
+  era: Hackbox — NEAR DevHub, 2023–2025
+  organization: NEAR DevHub
+  participants: 94
+  description: "Cross-ecosystem hackathon exploring privacy-preserving intent architectures at the intersection of Zcash and NEAR Protocol."
+  tags: [technology, systems, coordination]
+
+- id: ethberlin-hackshop
+  name: ETHBerlin NEAR HackShop
+  role: Producer
+  year: "2024"
+  era: Hackbox — NEAR DevHub, 2023–2025
+  organization: NEAR DevHub
+  city: Berlin
+  description: "A satellite hackshop at ETHBerlin offering focused workshops and building sessions for developers interested in NEAR tooling and cross-chain applications."
+  tags: [technology, builder-ecosystems]
+
+- id: redacted-lagos
+  name: REDACTED Hackathon — Lagos City Node
+  role: Producer
+  year: "2024–2025"
+  era: Hackbox — NEAR DevHub, 2023–2025
+  organization: NEAR DevHub
+  city: Lagos
+  description: "Lagos node of the REDACTED Hackathon series, activating West African builder communities for decentralized application development."
+  tags: [technology, culture, builder-ecosystems, community]
+
+- id: redacted-mexico
+  name: REDACTED Hackathon — Mexico Node
+  role: Producer
+  year: "2024–2025"
+  era: Hackbox — NEAR DevHub, 2023–2025
+  organization: NEAR DevHub
+  city: Mexico City
+  participants: 107
+  description: "Mexico node of the REDACTED Hackathon, expanding the series into Latin America with a focus on local builder onboarding and mentorship."
+  tags: [technology, builder-ecosystems, community]
+
+- id: ai-chain-tunisia
+  name: AI CHAIN NEAR Hackathon Tunisia
+  role: Producer
+  year: "2024–2025"
+  era: Hackbox — NEAR DevHub, 2023–2025
+  organization: NEAR DevHub
+  city: Tunisia
+  description: "AI and blockchain hackathon in Tunisia exploring the convergence of machine learning and decentralized infrastructure on the NEAR ecosystem."
+  tags: [technology, AI, systems, builder-ecosystems]
+
+- id: hawkhacks-2024
+  name: HawkHacks 2024
+  role: Sponsor & Partner
+  year: "2024"
+  era: Hackbox — NEAR DevHub, 2023–2025
+  organization: NEAR DevHub
+  participants: 471
+  description: "Wilfrid Laurier University hackathon partnered through the Hackbox program, supporting student builders at one of Canada's largest university hackathons."
+  tags: [technology, builder-ecosystems, community]
+
+- id: near-devhub-hacker-house
+  name: NEAR DevHub Hacker House
+  role: Producer
+  year: "2024"
+  era: Hackbox — NEAR DevHub, 2023–2025
+  organization: NEAR DevHub
+  city: Brussels
+  description: "A hacker house alongside ETHGlobal Brussels, providing dedicated co-working space and mentorship for developers building cross-chain applications on NEAR."
+  tags: [technology, builder-ecosystems, coordination]
+
+# ─── Independent — 2024–2025 ───────────────────────────
+
+- id: fork-that-nyc
+  name: Fork That NYC
+  role: Organizer
+  year: "2024"
+  era: Independent — 2024–2025
+  organization: Independent
+  city: New York
+  description: "An independent builder event in New York City focused on open source development and collaborative building."
+  tags: [technology, builder-ecosystems, public-goods]
+
+- id: near-1t-agents
+  name: NEAR 1T Agents Hackathon
+  role: Producer
+  year: "2025"
+  era: Independent — 2024–2025
+  organization: Independent
+  description: "Hackathon exploring autonomous agent architectures on NEAR Protocol, pushing the frontier of AI-native decentralized applications."
+  tags: [technology, AI, systems, intelligence]
+
+- id: founders-forge-demo-day
+  name: Founders Forge Demo Day
+  role: Producer
+  year: "2025"
+  era: Independent — 2024–2025
+  organization: Independent
+  description: "A demo day showcasing projects from the Founders Forge program, connecting emerging builders with mentors, investors, and ecosystem partners."
+  tags: [technology, builder-ecosystems]

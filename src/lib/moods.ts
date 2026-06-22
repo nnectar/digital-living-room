@@ -1,5 +1,6 @@
 export type SectionMood =
   | "projects"
+  | "work"
   | "writing"
   | "bookshelf"
   | "playlist"
@@ -26,6 +27,13 @@ export const SECTION_MOODS: Record<SectionMood, MoodConfig> = {
     glyph: "\u25C6",
     description: "Things I build",
     href: "/projects",
+  },
+  work: {
+    mood: "work",
+    label: "Work",
+    glyph: "\u2B22",
+    description: "Where I've been",
+    href: "/work",
   },
   writing: {
     mood: "writing",

@@ -29,6 +29,54 @@ const currently = defineCollection({
   }),
 });
 
+const work = defineCollection({
+  name: "Work",
+  pattern: "work.yaml",
+  schema: s.object({
+    id: s.string(),
+    type: s.enum(["role", "education", "project"]),
+    title: s.string(),
+    organization: s.string(),
+    duration: s.string(),
+    description: s.string(),
+    tags: s.array(s.string()),
+    city: s.string().optional(),
+  }),
+});
+
+const events = defineCollection({
+  name: "Event",
+  pattern: "events.yaml",
+  schema: s.object({
+    id: s.string(),
+    name: s.string(),
+    role: s.string(),
+    year: s.string(),
+    era: s.string(),
+    organization: s.string(),
+    city: s.string().optional(),
+    participants: s.number().optional(),
+    description: s.string(),
+    tags: s.array(s.string()),
+  }),
+});
+
+const speaking = defineCollection({
+  name: "Speaking",
+  pattern: "speaking.yaml",
+  schema: s.object({
+    id: s.string(),
+    name: s.string(),
+    role: s.string(),
+    city: s.string(),
+    year: s.string(),
+    description: s.string(),
+    tags: s.array(s.string()),
+    relatedOrgs: s.array(s.string()).optional(),
+    images: s.array(s.string()),
+  }),
+});
+
 const projects = defineCollection({
   name: "Project",
   pattern: "projects/*.mdx",
@@ -64,7 +112,7 @@ export default defineConfig({
     name: "[name]-[hash:6].[ext]",
     clean: true,
   },
-  collections: { siteMeta, currently, projects },
+  collections: { siteMeta, currently, projects, work, events, speaking },
   mdx: {
     remarkPlugins: [],
     rehypePlugins: [],

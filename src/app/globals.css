@@ -41,6 +41,10 @@
   --card-rotate: -0.4deg;
   --card-rotate-hover: 0deg;
 }
+[data-mood="work"] {
+  --accent: oklch(0.6 0.15 220);
+  --card-rotate: 0deg;
+}
 [data-mood="writing"] {
   --accent: oklch(0.55 0.12 260);
   --card-rotate: 0.3deg;

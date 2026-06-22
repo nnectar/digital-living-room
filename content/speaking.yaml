@@ -1,0 +1,64 @@
+- id: nasdaq-trade-talks
+  name: NASDAQ Trade Talks
+  role: Speaker
+  city: New York
+  year: "2024"
+  description: "Spoke on the intersection of decentralized governance and institutional infrastructure, exploring how programmable incentive systems are reshaping coordination at scale."
+  tags: [governance, technology, coordination, institutions, incentive-design]
+  images:
+    - /images/speaking/nasdaq-trade-talks.png
+    - /images/speaking/nasdaq-trade-talks-2.jpg
+
+- id: messari-mainnet
+  name: Messari Mainnet
+  role: Speaker
+  city: New York
+  year: "2023 & 2024"
+  description: "Participated in discussions on governance design and protocol-level decision-making, sharing frameworks for how DAOs and onchain organizations can move from theory to operational maturity."
+  tags: [governance, technology, coordination, systems]
+  images:
+    - /images/speaking/messari-mainnet.jpg
+    - /images/speaking/messari-mainnet-2.png
+
+- id: ethdenver
+  name: ETHDenver
+  role: Speaker
+  city: Denver
+  year: "2024"
+  description: "Presented on builder ecosystems and the role of structured programs in turning hackathon energy into durable companies and products."
+  tags: [technology, builder-ecosystems, coordination]
+  relatedOrgs: [NEAR Protocol]
+  images:
+    - /images/speaking/ethdenver.png
+
+- id: nearcon
+  name: NEARCON
+  role: Speaker
+  city: Bangkok
+  year: "2024"
+  description: "Spoke about ecosystem growth strategies and how developer relations programs can catalyze community-driven innovation across global crypto networks."
+  tags: [technology, builder-ecosystems, community, coordination]
+  relatedOrgs: [NEAR Protocol]
+  images:
+    - /images/speaking/nearcon.png
+
+- id: stablesummit
+  name: StableSummit
+  role: Speaker
+  city: Denver
+  year: "2025"
+  description: "Discussed governance mechanisms for stablecoin protocols and the design challenges of building resilient, decentralized financial infrastructure."
+  tags: [governance, technology, systems, institutions]
+  relatedOrgs: [StableLab]
+  images:
+    - /images/speaking/stablesummit.png
+
+- id: ethcc
+  name: EthCC
+  role: Speaker
+  city: Brussels
+  year: "2024"
+  description: "Presented on governance infrastructure and decentralized coordination frameworks at Europe's largest annual Ethereum community conference."
+  tags: [governance, technology, coordination, systems]
+  images:
+    - /images/speaking/ethcc.jpg
