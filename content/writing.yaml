@@ -1,3 +1,27 @@
+- id: forse-docs
+  title: "Forse Documentation"
+  date: June 2024
+  tag: docs
+  url: https://docs.forse.io/
+  description: "Product documentation for Forse, StableLab's DAO data and intelligence platform — covering impact measurement, user intelligence, and incentive optimization."
+  tags: [governance, frontier-tech, systems]
+
+- id: plgenesis-modular-worlds-blog
+  title: "PL_Genesis: Modular Worlds — A New Stack for Human Potential"
+  date: May 2025
+  tag: blog
+  url: https://www.protocol.ai/blog/pl-genesis-modular-worlds-new-stack-for-human-potential/
+  description: "Launch announcement for the inaugural PL_Genesis hackathon — 1,900+ builders, 350+ projects, $250K+ in prizes across decentralized infrastructure, AI, and crypto systems."
+  tags: [frontier-tech, builder-ecosystems, community]
+
+- id: plgenesis-frontiers-blog
+  title: "PL_Genesis: Frontiers of Collaboration — The Next Chapter of Open Innovation"
+  date: November 2025
+  tag: blog
+  url: https://www.protocol.ai/blog/pl-genesis-hackathon/
+  description: "Recap of PL_Genesis Season 2 — 880 projects from 70+ countries, expanding into AI/AGI, robotics, and neurotech tracks."
+  tags: [frontier-tech, builder-ecosystems, AI]
+
 - id: colds-collective-mission
   title: "Unleashing the Potential of Africans through Decentralized Innovation: The Mission of COLDS Collective"
   date: February 2023
