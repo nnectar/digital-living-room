@@ -18,10 +18,10 @@ export interface SiteMeta {
 }
 
 const SITE_META_FALLBACK: SiteMeta = {
-  name: "Nneoma",
-  title: "Digital Living Room",
+  name: "Nneoma Kanu",
+  title: "Nneoma Kanu",
   description:
-    "A modular living room that holds both personal and professional artifacts.",
+    "Technical generalist building at the intersection of frontier technology and cultural intelligence.",
   motto: "Building in public, learning in the open.",
   bio: "Engineer, builder, and collector of interesting things.",
   social: {},
