@@ -50,22 +50,8 @@
   --card-rotate: 0.3deg;
   --card-rotate-hover: -0.1deg;
 }
-[data-mood="bookshelf"] {
-  --accent: oklch(0.7 0.14 85);
-  --card-rotate: 0deg;
-  --card-rotate-hover: 0.5deg;
-}
-[data-mood="playlist"] {
-  --accent: oklch(0.62 0.2 330);
-  --card-rotate: -0.2deg;
-  --card-rotate-hover: 0.2deg;
-}
 [data-mood="speaking"] {
   --accent: oklch(0.6 0.15 200);
-  --card-rotate: 0deg;
-}
-[data-mood="contributions"] {
-  --accent: oklch(0.58 0.16 145);
   --card-rotate: 0deg;
 }
 [data-mood="videos"] {
@@ -76,18 +62,9 @@
   --accent: oklch(0.63 0.14 170);
   --card-rotate: 0deg;
 }
-[data-mood="media"] {
-  --accent: oklch(0.67 0.13 290);
-  --card-rotate: 0deg;
-}
 [data-mood="photos"] {
   --accent: oklch(0.72 0.1 55);
   --card-rotate: 0.2deg;
-}
-[data-mood="wip"] {
-  --accent: oklch(0.6 0.22 60);
-  --card-rotate: -0.6deg;
-  --card-rotate-hover: 0.3deg;
 }
 
 /* ===== TAILWIND THEME REGISTRATION ===== */

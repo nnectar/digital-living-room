@@ -34,7 +34,7 @@ const work = defineCollection({
   pattern: "work.yaml",
   schema: s.object({
     id: s.string(),
-    type: s.enum(["role", "education", "project"]),
+    type: s.enum(["role", "education"]),
     title: s.string(),
     organization: s.string(),
     duration: s.string(),
@@ -56,6 +56,35 @@ const events = defineCollection({
     organization: s.string(),
     city: s.string().optional(),
     participants: s.number().optional(),
+    description: s.string(),
+    tags: s.array(s.string()),
+  }),
+});
+
+const proposals = defineCollection({
+  name: "Proposal",
+  pattern: "proposals.yaml",
+  schema: s.object({
+    id: s.string(),
+    title: s.string(),
+    protocol: s.string(),
+    date: s.string(),
+    status: s.enum(["passed", "pending", "rejected"]),
+    url: s.string(),
+    description: s.string(),
+    tags: s.array(s.string()),
+  }),
+});
+
+const writing = defineCollection({
+  name: "Writing",
+  pattern: "writing.yaml",
+  schema: s.object({
+    id: s.string(),
+    title: s.string(),
+    date: s.string(),
+    tag: s.enum(["essay", "poetry"]),
+    url: s.string(),
     description: s.string(),
     tags: s.array(s.string()),
   }),
@@ -91,6 +120,7 @@ const projects = defineCollection({
       tags: s.array(s.string()),
       summary: s.string().max(500),
       cover: s.image().optional(),
+      images: s.array(s.string()).default([]),
       url: s.string().optional(),
       repo: s.string().optional(),
       featured: s.boolean().default(false),
@@ -112,7 +142,7 @@ export default defineConfig({
     name: "[name]-[hash:6].[ext]",
     clean: true,
   },
-  collections: { siteMeta, currently, projects, work, events, speaking },
+  collections: { siteMeta, currently, projects, work, events, speaking, writing, proposals },
   mdx: {
     remarkPlugins: [],
     rehypePlugins: [],

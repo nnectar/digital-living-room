@@ -1,0 +1,44 @@
+- id: scroll-delegate-accelerator
+  title: Scroll DAO Delegate Accelerator Proposal
+  protocol: Scroll DAO
+  date: March 2025
+  status: passed
+  url: https://forum.scroll.io/t/proposal-scroll-dao-delegate-accelerator-proposal/571
+  description: "Proposal for $90K + 100K SCR to fund a seven-week delegate training program expanding Scroll DAO's governance base through structured curriculum and hands-on assessment."
+  tags: [governance, delegation, training]
+
+- id: scroll-delegate-execution
+  title: Scroll DAO Delegate Accelerator — Execution Plan
+  protocol: Scroll DAO
+  date: June 2025
+  status: passed
+  url: https://forum.scroll.io/t/scroll-dao-delegate-accelerator-program-execution-plan/826
+  description: "Execution strategy for the approved Delegate Accelerator: an 8-week curriculum covering protocol design, governance models, and strategic initiatives to develop a new cohort of informed delegates."
+  tags: [governance, delegation, training]
+
+- id: tally-lido-research-grant
+  title: Tally x Lido DAO Research Grant
+  protocol: Lido DAO
+  date: November 2023
+  status: passed
+  url: https://research.lido.fi/t/tally-x-lido-dao-research-grant/6043
+  description: "Research grant analyzing implementation solutions for enabling token delegation in Lido DAO governance, recommending a smart contract interface for LDO compatibility with Tally."
+  tags: [governance, research, delegation]
+
+- id: safedao-governance-accessibility
+  title: "[SEP #15] Enhancing Governance Accessibility and Participation at SafeDAO"
+  protocol: SafeDAO
+  date: January 2024
+  status: passed
+  url: https://forum.safefoundation.org/t/sep-15-obra-enhancing-governance-accessibility-and-participation-at-safedao-stablelab/4675
+  description: "Proposal for 24K USDC to deliver governance support services including weekly and monthly digests, live community discussions, and educational engagement to boost SafeDAO participation."
+  tags: [governance, community, participation]
+
+- id: livepeer-govworks-chair
+  title: Introducing StableLab as GovWorks Chair
+  protocol: Livepeer
+  date: November 2024
+  status: passed
+  url: https://forum.livepeer.org/t/introducing-stablelab-as-govworks-chair/2655
+  description: "Inaugural GovWorks Chair appointment to strengthen Livepeer governance through treasury documentation, community discussions, and standardized proposal ecosystem development."
+  tags: [governance, treasury, community]

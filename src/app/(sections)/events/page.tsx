@@ -5,7 +5,7 @@ import { getEvents } from "@/lib/content";
 
 export const metadata: Metadata = {
   title: "Events",
-  description: "Hackathons, builder houses, and activations I've produced.",
+  description: "Gatherings I produce.",
 };
 
 export default function EventsPage() {
@@ -22,7 +22,7 @@ export default function EventsPage() {
             Events
           </h1>
           <p className="mt-2 font-[family-name:var(--font-body)] text-sm tracking-wide text-muted-foreground">
-            Hackathons, builder houses, and activations I&rsquo;ve produced.
+            Gatherings I produce.
           </p>
         </div>
 

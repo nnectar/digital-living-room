@@ -5,7 +5,7 @@ import { getWork } from "@/lib/content";
 
 export const metadata: Metadata = {
   title: "Work",
-  description: "Where I've been — roles, education, and special projects.",
+  description: "Where I've been — roles and education.",
 };
 
 export default function WorkPage() {
@@ -13,7 +13,6 @@ export default function WorkPage() {
 
   const roles = work.filter((w) => w.type === "role");
   const education = work.filter((w) => w.type === "education");
-  const projects = work.filter((w) => w.type === "project");
 
   return (
     <SectionLayout mood="work">
@@ -24,8 +23,7 @@ export default function WorkPage() {
             Work
           </h1>
           <p className="mt-2 font-[family-name:var(--font-body)] text-sm tracking-wide text-muted-foreground">
-            Where I&rsquo;ve been &mdash; roles, education, and special
-            projects.
+            Where I&rsquo;ve been &mdash; roles and education.
           </p>
         </div>
 
@@ -51,20 +49,6 @@ export default function WorkPage() {
             </h2>
             <div className="grid grid-cols-1 gap-4">
               {education.map((entry) => (
-                <WorkCard key={entry.id} entry={entry} />
-              ))}
-            </div>
-          </div>
-        )}
-
-        {/* Special Projects */}
-        {projects.length > 0 && (
-          <div className="mb-12">
-            <h2 className="mb-6 font-[family-name:var(--font-heading)] text-xl font-bold tracking-tight text-foreground">
-              Special Projects
-            </h2>
-            <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
-              {projects.map((entry) => (
                 <WorkCard key={entry.id} entry={entry} />
               ))}
             </div>

@@ -17,7 +17,7 @@ export default function AboutPage() {
           Hi, I&rsquo;m {site.name}
         </h1>
         <p className="mt-2 font-[family-name:var(--font-body)] text-sm tracking-wide text-muted-foreground">
-          Creative operator, independent technologist
+          Technical generalist
         </p>
       </div>
 

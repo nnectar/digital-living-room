@@ -72,6 +72,7 @@ export interface Project {
   tags: string[];
   summary: string;
   cover?: string;
+  images: string[];
   url?: string;
   repo?: string;
   featured: boolean;
@@ -103,7 +104,7 @@ export function getProjectBySlug(slug: string): Project | null {
 
 export interface WorkEntry {
   id: string;
-  type: "role" | "education" | "project";
+  type: "role" | "education";
   title: string;
   organization: string;
   duration: string;
@@ -172,6 +173,55 @@ export function getSpeaking(): SpeakingEntry[] {
       speaking: SpeakingEntry[];
     };
     return speaking;
+  } catch {
+    return [];
+  }
+}
+
+// ===== Writing =====
+
+export interface WritingEntry {
+  id: string;
+  title: string;
+  date: string;
+  tag: "essay" | "poetry";
+  url: string;
+  description: string;
+  tags: string[];
+}
+
+// ===== Proposals =====
+
+export interface ProposalEntry {
+  id: string;
+  title: string;
+  protocol: string;
+  date: string;
+  status: "passed" | "pending" | "rejected";
+  url: string;
+  description: string;
+  tags: string[];
+}
+
+export function getProposals(): ProposalEntry[] {
+  try {
+    // eslint-disable-next-line @typescript-eslint/no-require-imports
+    const { proposals } = require("#site/content") as {
+      proposals: ProposalEntry[];
+    };
+    return proposals;
+  } catch {
+    return [];
+  }
+}
+
+export function getWriting(): WritingEntry[] {
+  try {
+    // eslint-disable-next-line @typescript-eslint/no-require-imports
+    const { writing } = require("#site/content") as {
+      writing: WritingEntry[];
+    };
+    return writing;
   } catch {
     return [];
   }

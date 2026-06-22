@@ -25,9 +25,9 @@
   role: Speaker
   city: Denver
   year: "2024"
-  description: "Presented on builder ecosystems and the role of structured programs in turning hackathon energy into durable companies and products."
-  tags: [technology, builder-ecosystems, coordination]
-  relatedOrgs: [NEAR Protocol]
+  description: "Solving the Governance Problem: Better Tools and the Will to Use Them"
+  tags: [governance, technology, coordination, systems]
+  relatedOrgs: [StableLab]
   images:
     - /images/speaking/ethdenver.png
 
@@ -36,8 +36,8 @@
   role: Speaker
   city: Bangkok
   year: "2024"
-  description: "Spoke about ecosystem growth strategies and how developer relations programs can catalyze community-driven innovation across global crypto networks."
-  tags: [technology, builder-ecosystems, community, coordination]
+  description: "The Future of Self Sovereignty: AI Agents, DAOs, and the User Owned"
+  tags: [governance, technology, AI, coordination, systems]
   relatedOrgs: [NEAR Protocol]
   images:
     - /images/speaking/nearcon.png
@@ -58,7 +58,7 @@
   role: Speaker
   city: Brussels
   year: "2024"
-  description: "Presented on governance infrastructure and decentralized coordination frameworks at Europe's largest annual Ethereum community conference."
+  description: "Presented on the fundamentals of stablecoins, governance infrastructure and decentralized coordination frameworks at Europe's largest annual Ethereum community conference."
   tags: [governance, technology, coordination, systems]
   images:
     - /images/speaking/ethcc.jpg
