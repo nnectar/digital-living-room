@@ -42,11 +42,11 @@ export default function WritingPage() {
           </div>
         </div>
 
-        {/* Essays */}
+        {/* Writing */}
         {writing.length > 0 && (
           <div className="mb-12">
             <h2 className="mb-6 font-[family-name:var(--font-heading)] text-xl font-bold tracking-tight text-foreground">
-              Essays
+              Writing
             </h2>
             <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
               {writing.map((entry) => (

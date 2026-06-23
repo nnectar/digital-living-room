@@ -83,7 +83,7 @@ const writing = defineCollection({
     id: s.string(),
     title: s.string(),
     date: s.string(),
-    tag: s.enum(["essay", "poetry"]),
+    tag: s.enum(["essay", "poetry", "blog", "docs", "report"]),
     url: s.string(),
     description: s.string(),
     tags: s.array(s.string()),
