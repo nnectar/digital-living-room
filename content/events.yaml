@@ -9,6 +9,15 @@
   city: Lagos
   description: "A Web3 onboarding event in Lagos focused on bridging local creative communities into decentralized ecosystems. Designed to introduce builders and artists to onchain tools and collaboration frameworks."
   tags: [technology, culture, community, builder-ecosystems, cultural-literacy]
+  images:
+    - "/images/events/catalyst-banner.jpg"
+    - "/images/events/catalyst-stage.jpg"
+    - "/images/events/catalyst-panel.jpg"
+    - "/images/events/catalyst-crowd.jpg"
+    - "/images/events/catalyst-photowall.jpg"
+    - "/images/events/catalyst-audience.jpg"
+    - "/images/events/catalyst-crowd-wide.jpg"
+    - "/images/events/catalyst-programme.jpg"
 
 # ─── NEAR Hacks US Tour — Banyan Collective, 2022 ──────
 
@@ -22,6 +31,14 @@
   participants: 100
   description: "Multi-day builder event featuring workshops, mentorship sessions, and demo presentations from emerging NEAR ecosystem projects."
   tags: [technology, builder-ecosystems, community]
+  images:
+    - "/images/events/nearhacks-nyc-bounties.jpg"
+    - "/images/events/nearhacks-nyc-hacking.jpg"
+    - "/images/events/nearhacks-nyc-collab.jpg"
+    - "/images/events/nearhacks-nyc-presenting.jpg"
+    - "/images/events/nearhacks-nyc-mentoring.jpg"
+    - "/images/events/nearhacks-nyc-workshop.jpg"
+    - "/images/events/nearhacks-nyc-community.jpg"
 
 - id: sf-builder-day
   name: SF Builder Day
@@ -32,6 +49,13 @@
   city: San Francisco
   description: "A focused builder day in San Francisco as part of the NEAR Hacks US Tour, bringing together West Coast developers for hands-on building and ecosystem exploration."
   tags: [technology, builder-ecosystems]
+  images:
+    - "/images/events/sf-builder-stage.jpg"
+    - "/images/events/sf-builder-networking.jpg"
+    - "/images/events/sf-builder-swag.jpg"
+    - "/images/events/sf-builder-attendee.jpg"
+    - "/images/events/sf-builder-crowd.jpg"
+    - "/images/events/sf-builder-demo.jpg"
 
 # ─── Hackbox — NEAR DevHub, 2023–2025 ──────────────────
 
@@ -44,6 +68,14 @@
   city: San Francisco
   description: "San Francisco hackathon under the Hackbox program, bringing together builders for focused sprints on NEAR Protocol tooling and applications."
   tags: [technology, builder-ecosystems]
+  images:
+    - "/images/events/nearhacks-sf-stage.jpg"
+    - "/images/events/nearhacks-sf-rust-workshop.jpg"
+    - "/images/events/nearhacks-sf-workshop-2.jpg"
+    - "/images/events/nearhacks-sf-workshop-3.jpg"
+    - "/images/events/nearhacks-sf-speaker.jpg"
+    - "/images/events/nearhacks-sf-building.jpg"
+    - "/images/events/nearhacks-sf-demo.jpg"
 
 - id: webfusion-lagos
   name: WebFusion Lagos
@@ -55,6 +87,8 @@
   participants: 112
   description: "A Lagos-based hackathon fusing Web2 and Web3 development paradigms, designed to lower the barrier of entry for African developers building on decentralized infrastructure."
   tags: [technology, culture, builder-ecosystems, community, cultural-literacy]
+  images:
+    - "/images/events/webfusion-xspace.jpg"
 
 - id: art-innovation-tulsa
   name: Art and Innovation Tulsa
@@ -75,6 +109,8 @@
   city: Mexico City
   description: "A recurring builder house in Mexico City bringing together Latin American developers and global contributors to collaborate on open web infrastructure."
   tags: [technology, builder-ecosystems, community, public-goods]
+  images:
+    - "/images/events/open-web-cdmx-landing.jpg"
 
 - id: hack-o-ween
   name: "Hack-o-ween: Civic Tech Buildathon"
@@ -104,6 +140,10 @@
   participants: 94
   description: "Cross-ecosystem hackathon exploring privacy-preserving intent architectures at the intersection of Zcash and NEAR Protocol."
   tags: [technology, systems, coordination]
+  images:
+    - "/images/events/zcash-near-cover.png"
+    - "/images/events/zcash-near-announcement.png"
+    - "/images/events/zcash-near-avatar.png"
 
 - id: ethberlin-hackshop
   name: ETHBerlin NEAR HackShop
@@ -187,6 +227,31 @@
   description: "Hackathon exploring autonomous agent architectures on NEAR Protocol, pushing the frontier of AI-native decentralized applications."
   tags: [technology, AI, systems, intelligence]
 
+- id: ftc-hackathon-sf
+  name: "Funding the Commons SF: Intelligence at the Frontier Hackathon"
+  role: Producer
+  year: "2026"
+  era: Protocol Labs — 2025–present
+  organization: Protocol Labs
+  city: San Francisco
+  participants: 200
+  description: "A two-day in-person build sprint at Frontier Tower SF with a $20.5K+ prize pool across four tracks — Physical AI & Robotics, Agentic Funding & Coordination, AI Safety & Evaluation, and Sovereign Infrastructure."
+  tags: [technology, AI, builder-ecosystems, public-goods, systems]
+  images:
+    - "/images/events/ftc-logo.jpeg"
+
+- id: ftc-investor-showcase
+  name: "Hello Tomorrow: A Frontier Tower Investor Showcase"
+  role: Producer
+  year: "2026"
+  era: Protocol Labs — 2025–present
+  organization: Protocol Labs
+  city: San Francisco
+  description: "Demo day celebrating hackathon winners and Protocol Labs Network companies — live showcases across Sovereign Infrastructure, Physical AI, Agentic Finance, Neurotech & BCI, and AI Safety."
+  tags: [technology, AI, builder-ecosystems, systems]
+  images:
+    - "/images/events/hello-tomorrow-showcase.png"
+
 - id: founders-forge-demo-day
   name: Founders Forge Demo Day
   role: Producer
@@ -195,3 +260,7 @@
   organization: Independent
   description: "A demo day showcasing projects from the Founders Forge program, connecting emerging builders with mentors, investors, and ecosystem partners."
   tags: [technology, builder-ecosystems]
+  images:
+    - "/images/events/ff-demo-day-dubai.png"
+    - "/images/events/ff-demo-day-venue.jpg"
+    - "/images/events/ff-demo-day-directions.jpg"

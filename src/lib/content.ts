@@ -138,6 +138,7 @@ export interface EventEntry {
   participants?: number;
   description: string;
   tags: string[];
+  images: string[];
 }
 
 export function getEvents(): EventEntry[] {

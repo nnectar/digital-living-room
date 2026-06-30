@@ -58,6 +58,7 @@ const events = defineCollection({
     participants: s.number().optional(),
     description: s.string(),
     tags: s.array(s.string()),
+    images: s.array(s.string()).default([]),
   }),
 });
 

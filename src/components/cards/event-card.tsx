@@ -1,5 +1,6 @@
 import { cn } from "@/lib/utils";
 import { Badge } from "@/components/ui/badge";
+import { ImageCarousel } from "@/components/ui/image-carousel";
 import type { EventEntry } from "@/lib/content";
 
 interface EventCardProps {
@@ -16,6 +17,11 @@ export function EventCard({ event }: EventCardProps) {
         "hover:border-border hover:bg-card hover:shadow-sm"
       )}
     >
+      {/* Image carousel */}
+      {event.images && event.images.length > 0 && (
+        <ImageCarousel images={event.images} alt={event.name} />
+      )}
+
       {/* Header: role + year */}
       <div className="mb-3 flex items-center gap-2 font-[family-name:var(--font-body)] text-xs tracking-wide text-muted-foreground">
         <span>{event.role}</span>
