@@ -32,6 +32,7 @@ export function ProjectCard({ project }: ProjectCardProps) {
           <ImageCarousel
             images={project.images}
             alt={project.title}
+            contain={project.images.some((img) => img.includes("logo") || img.includes("challenger") || img.includes("bootcamp"))}
           />
         )}
 

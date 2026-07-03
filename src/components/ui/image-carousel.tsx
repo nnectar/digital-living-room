@@ -7,9 +7,10 @@ import { cn } from "@/lib/utils";
 interface ImageCarouselProps {
   images: string[];
   alt: string;
+  contain?: boolean;
 }
 
-export function ImageCarousel({ images, alt }: ImageCarouselProps) {
+export function ImageCarousel({ images, alt, contain }: ImageCarouselProps) {
   const scrollRef = useRef<HTMLDivElement>(null);
   const [active, setActive] = useState(0);
 
@@ -61,7 +62,7 @@ export function ImageCarousel({ images, alt }: ImageCarouselProps) {
               src={src}
               alt={`${alt} — ${i + 1}`}
               fill
-              className="object-cover"
+              className={contain ? "object-contain" : "object-cover"}
               sizes="(max-width: 768px) 100vw, 50vw"
             />
           </div>
