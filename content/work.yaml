@@ -2,26 +2,26 @@
 
 - id: protocol-labs
   type: role
-  title: Builder Programs Growth Manager
+  title: Growth Marketing & Builder Programs Lead
   organization: Protocol Labs
-  duration: June 2025 – Present
-  description: "Leading PL's Early Builder Funnel Programs including hackathons and the Founders Forge accelerator. Managing sponsor relationships with tier-1 partners and coordinating investor relations for 30+ early-stage startups."
+  duration: June 2025 – June 2026
+  description: "Built Protocol Labs' demand generation engine across builder programs, driving acquisition of 4,000+ builders and 1,000+ qualified project submissions. Directed end-to-end marketing campaigns across paid media, partner marketing, email, social, and analytics, managing $400K+ in campaign budgets. Led GTM for Founders Forge, coordinating acquisition campaigns, investor engagement, and demo day execution for 27 startups."
   tags: [frontier-tech, design, builder-ecosystems, coordination, public-goods]
 
 - id: stablelab
   type: role
-  title: Technical Governance & BD Lead
+  title: Technical BD Lead
   organization: StableLab
   duration: May 2023 – January 2026
-  description: "Drove business development across major DeFi protocols including Lido, Uniswap, Arbitrum, and Compound. Administered $2M+ in grant capital via the Uniswap-Arbitrum Grant Program (UAGP)."
+  description: "Developed and executed GTM strategy for Forse, creating a greenfield enterprise pipeline that generated 35 qualified opportunities and 10 protocol partnerships within three months. Led strategic partnerships across Ethereum's largest protocols including Uniswap, Lido, Safe, Compound, Arbitrum, and Starknet."
   tags: [governance, frontier-tech, public-goods, institutions]
 
 - id: near-protocol
   type: role
-  title: Head of Hackathons | Ecosystem Growth
-  organization: NEAR Protocol
-  duration: August 2022 – December 2024
-  description: "Built the partnership pipeline for NEAR developer programs and designed go-to-market strategy for the Hackbox platform. Executed 30+ developer activations across meetups, workshops, and hackathons."
+  title: Head of Growth & Developer Programs
+  organization: NEAR Foundation / NEAR DevHub
+  duration: August 2022 – April 2025
+  description: "Led global growth marketing campaigns supporting 30+ developer conferences, hackathons, and ecosystem programs. Designed acquisition strategies spanning partnerships, social campaigns, educational initiatives, and ambassador programs that onboarded 1,000+ developers. Built Hackbox, a scalable operational platform for developer onboarding and event execution."
   tags: [frontier-tech, builder-ecosystems, community, coordination]
 
 - id: jet-protocol
@@ -29,7 +29,7 @@
   title: Developer Relations Lead
   organization: Jet Protocol
   duration: August 2021 – July 2022
-  description: "Led early-stage business development for a Solana-native DeFi protocol, building relationships with institutional users, market makers, and liquidity providers."
+  description: "Supported GTM initiatives for a Solana DeFi lending protocol through developer marketing, technical content, ecosystem partnerships, and educational campaigns. Produced documentation, onboarding resources, and developer-facing content supporting protocol adoption."
   tags: [frontier-tech, builder-ecosystems, systems]
 
 # ─── Education ──────────────────────────────────────────
