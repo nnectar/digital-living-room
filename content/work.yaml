@@ -1,27 +1,35 @@
 # ─── Roles ──────────────────────────────────────────────
 
+- id: 1inch
+  type: role
+  title: Consultant, DeFi Growth
+  organization: 1inch
+  duration: July 2026 – Present
+  description: "Lead developer education and ecosystem growth across major U.S. universities through technical workshops, demos, community programs, and partnerships. Translate DeFi infrastructure, routing, liquidity, and protocol use cases into content and programming for technical and crypto-native audiences."
+  tags: [frontier-tech, builder-ecosystems, community]
+
 - id: protocol-labs
   type: role
-  title: Growth Marketing & Builder Programs Lead
+  title: Builder Programs Growth & Developer Ecosystem Lead
   organization: Protocol Labs
   duration: June 2025 – June 2026
-  description: "Built Protocol Labs' demand generation engine across builder programs, driving acquisition of 4,000+ builders and 1,000+ qualified project submissions. Directed end-to-end marketing campaigns across paid media, partner marketing, email, social, and analytics, managing $400K+ in campaign budgets. Led GTM for Founders Forge, coordinating acquisition campaigns, investor engagement, and demo day execution for 27 startups."
-  tags: [frontier-tech, design, builder-ecosystems, coordination, public-goods]
+  description: "Built and scaled global developer programs that activated 5,000+ builders and generated 1,000+ project submissions across AI, decentralized infrastructure, and robotics. Produced 150+ content assets driving millions of impressions and 10,500+ clicks. Built CRM and attribution systems across 10,000+ participants. Led GTM for Founders Forge across 27 startups, with 23 securing funding or commercial partnerships."
+  tags: [frontier-tech, builder-ecosystems, coordination, public-goods]
 
 - id: stablelab
   type: role
-  title: Technical BD Lead
+  title: Technical Growth Lead
   organization: StableLab
   duration: May 2023 – January 2026
-  description: "Developed and executed GTM strategy for Forse, creating a greenfield enterprise pipeline that generated 35 qualified opportunities and 10 protocol partnerships within three months. Led strategic partnerships across Ethereum's largest protocols including Uniswap, Lido, Safe, Compound, Arbitrum, and Starknet."
+  description: "Led technical growth, content, and ecosystem marketing across major crypto ecosystems including Uniswap, Lido, Safe, Compound, Arbitrum, and Starknet. Led GTM for Forse from early positioning to a 35-opportunity qualified pipeline in eight weeks and 10 partnerships/integrations. Produced governance research, newsletters, podcasts, and technical content for institutional Ethereum audiences."
   tags: [governance, frontier-tech, public-goods, institutions]
 
 - id: near-protocol
   type: role
-  title: Head of Growth & Developer Programs
+  title: Developer Relations Lead
   organization: NEAR Foundation / NEAR DevHub
-  duration: August 2022 – April 2025
-  description: "Led global growth marketing campaigns supporting 30+ developer conferences, hackathons, and ecosystem programs. Designed acquisition strategies spanning partnerships, social campaigns, educational initiatives, and ambassador programs that onboarded 1,000+ developers. Built Hackbox, a scalable operational platform for developer onboarding and event execution."
+  duration: August 2022 – April 2023
+  description: "Led 30+ hackathons, technical workshops, demos, and meetups, contributing to a funnel that added 1,000+ developers. Built Hackbox, a repeatable developer program framework covering acquisition, onboarding, team formation, technical support, submissions, and follow-up."
   tags: [frontier-tech, builder-ecosystems, community, coordination]
 
 - id: jet-protocol
@@ -29,14 +37,22 @@
   title: Developer Relations Lead
   organization: Jet Protocol
   duration: August 2021 – July 2022
-  description: "Supported GTM initiatives for a Solana DeFi lending protocol through developer marketing, technical content, ecosystem partnerships, and educational campaigns. Produced documentation, onboarding resources, and developer-facing content supporting protocol adoption."
+  description: "Created developer documentation, API references, integration guides, tutorials, demos, and technical education for a DeFi lending protocol. Built feedback loops between engineers and external developers to improve documentation and developer-facing resources."
   tags: [frontier-tech, builder-ecosystems, systems]
+
+- id: nasa
+  type: role
+  title: Program Manager
+  organization: NASA Goddard Space Flight Center
+  duration: September 2020 – August 2021
+  description: "Managed program operations, communications, reporting, and stakeholder coordination for ARSET, a global scientific training initiative. Built reusable reporting and engagement workflows for distributed technical audiences."
+  tags: [systems, coordination]
 
 # ─── Education ──────────────────────────────────────────
 
 - id: umd
   type: education
-  title: "B.S. Geospatial Information Sciences (GIS)"
+  title: "B.S. Geospatial Information Systems (GIS), Minor in Computer Science"
   organization: University of Maryland, College Park
   duration: 2020 – 2022
   description: ""
