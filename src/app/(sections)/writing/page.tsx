@@ -34,6 +34,7 @@ export default function WritingPage() {
           <div className="-mx-6 flex gap-4 overflow-x-auto px-6 pb-4 snap-x snap-mandatory scrollbar-hide">
             {[
               { id: "mlE9i7CsMHE", title: "Video" },
+              { id: "M-TDVsuCREM", title: "Video" },
               { id: "J5cDeSbSN6w", title: "Video" },
               { id: "8L4wr9YIe88", title: "Founders Forge" },
             ].map((video) => (
