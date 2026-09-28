@@ -1,5 +1,13 @@
 @import "tailwindcss";
 
+@utility scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
 /* ===== WARM THEME (DEFAULT) ===== */
 :root,
 [data-theme="warm"] {

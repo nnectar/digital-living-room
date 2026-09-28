@@ -31,25 +31,25 @@ export default function WritingPage() {
           <h2 className="mb-6 font-[family-name:var(--font-heading)] text-xl font-bold tracking-tight text-foreground">
             Video
           </h2>
-          <div className="space-y-6">
-            <div className="mx-auto aspect-video max-w-2xl overflow-hidden rounded-xl border border-border/50">
-              <iframe
-                src="https://www.youtube.com/embed/J5cDeSbSN6w"
-                title="Video"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-                className="h-full w-full"
-              />
-            </div>
-            <div className="mx-auto aspect-video max-w-2xl overflow-hidden rounded-xl border border-border/50">
-              <iframe
-                src="https://www.youtube.com/embed/8L4wr9YIe88"
-                title="Founders Forge"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-                className="h-full w-full"
-              />
-            </div>
+          <div className="-mx-6 flex gap-4 overflow-x-auto px-6 pb-4 snap-x snap-mandatory scrollbar-hide">
+            {[
+              { id: "mlE9i7CsMHE", title: "Video" },
+              { id: "J5cDeSbSN6w", title: "Video" },
+              { id: "8L4wr9YIe88", title: "Founders Forge" },
+            ].map((video) => (
+              <div
+                key={video.id}
+                className="aspect-video w-[80vw] max-w-xl flex-shrink-0 snap-start overflow-hidden rounded-xl border border-border/50"
+              >
+                <iframe
+                  src={`https://www.youtube.com/embed/${video.id}`}
+                  title={video.title}
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                  className="h-full w-full"
+                />
+              </div>
+            ))}
           </div>
         </div>
 
