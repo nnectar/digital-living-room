@@ -22,9 +22,6 @@ export function CurrentlyBlock({ items }: CurrentlyBlockProps) {
           <div
             key={item.label}
             className="group rounded-lg border border-border/50 bg-card/50 px-4 py-3 transition-colors hover:border-border hover:bg-card"
-            style={{
-              transform: `rotate(${(Math.random() - 0.5) * 0.8}deg)`,
-            }}
           >
             <span className="block font-[family-name:var(--font-body)] text-xs tracking-wide text-muted-foreground uppercase">
               {item.emoji && <span className="mr-1.5">{item.emoji}</span>}

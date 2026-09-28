@@ -5,6 +5,7 @@ import { ThemeProvider } from "@/components/layout/theme-provider";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { SiteHeader } from "@/components/layout/site-header";
 import { SiteFooter } from "@/components/layout/site-footer";
+import { PageWash } from "@/components/layout/page-wash";
 import "./globals.css";
 
 export function generateMetadata(): Metadata {
@@ -32,7 +33,8 @@ export default function RootLayout({
       >
         <ThemeProvider>
           <TooltipProvider delayDuration={200}>
-            <div className="flex min-h-screen flex-col">
+            <PageWash />
+            <div className="relative z-10 flex min-h-screen flex-col">
               <SiteHeader />
               <main className="flex-1">{children}</main>
               <SiteFooter motto={site.motto} social={site.social} />
