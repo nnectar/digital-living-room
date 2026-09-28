@@ -2,49 +2,63 @@
 
 - id: 1inch
   type: role
-  title: Consultant, DeFi Growth
+  title: DeFi Growth Consultant (Contract)
   organization: 1inch
-  duration: July 2026 – Present
+  duration: Jul 2026 – Present
+  city: Remote
   description: "Lead developer education and ecosystem growth across major U.S. universities through technical workshops, demos, community programs, and partnerships. Translate DeFi infrastructure, routing, liquidity, and protocol use cases into content and programming for technical and crypto-native audiences."
   tags: [frontier-tech, builder-ecosystems, community]
 
 - id: protocol-labs
   type: role
-  title: Builder Programs Growth & Developer Ecosystem Lead
+  title: Builder Programs Growth Manager (Contract)
   organization: Protocol Labs
-  duration: June 2025 – June 2026
+  duration: Jun 2025 – Jun 2026
+  city: Remote
   description: "Built and scaled global developer programs that activated 5,000+ builders and generated 1,000+ project submissions across AI, decentralized infrastructure, and robotics. Produced 150+ content assets driving millions of impressions and 10,500+ clicks. Built CRM and attribution systems across 10,000+ participants. Led GTM for Founders Forge across 27 startups, with 23 securing funding or commercial partnerships."
   tags: [frontier-tech, builder-ecosystems, coordination, public-goods]
 
+- id: devspot
+  type: role
+  title: Builder Programs Growth Manager (Contract)
+  organization: DevSpot
+  duration: Jun 2025 – Jun 2026
+  city: Remote
+  description: "Managed the DevSpot hackathon platform powering PL_Genesis seasons 1 and 2 — coordinating project submissions, sponsor integrations, and builder experience across 1,200+ projects and 70+ countries."
+  tags: [frontier-tech, builder-ecosystems, coordination]
+
 - id: stablelab
   type: role
-  title: Technical Growth Lead
+  title: Technical Growth — Product & Governance (Full-time)
   organization: StableLab
-  duration: May 2023 – January 2026
+  duration: May 2023 – Feb 2026
   description: "Led technical growth, content, and ecosystem marketing across major crypto ecosystems including Uniswap, Lido, Safe, Compound, Arbitrum, and Starknet. Led GTM for Forse from early positioning to a 35-opportunity qualified pipeline in eight weeks and 10 partnerships/integrations. Produced governance research, newsletters, podcasts, and technical content for institutional Ethereum audiences."
   tags: [governance, frontier-tech, public-goods, institutions]
 
 - id: near-protocol
   type: role
-  title: Developer Relations Lead
-  organization: NEAR Foundation / NEAR DevHub
-  duration: August 2022 – April 2023
+  title: Developer Relations Lead (Contract)
+  organization: NEAR Protocol
+  duration: Jul 2022 – Apr 2023
+  city: United States, Hybrid
   description: "Led 30+ hackathons, technical workshops, demos, and meetups, contributing to a funnel that added 1,000+ developers. Built Hackbox, a repeatable developer program framework covering acquisition, onboarding, team formation, technical support, submissions, and follow-up. Supported GTM for core protocol primitives including Chain Abstraction, NEAR AI, and NEAR Intents — designing hackathon tracks, developer education, and launch programming that brought new infrastructure to builders."
   tags: [frontier-tech, builder-ecosystems, community, coordination]
 
 - id: jet-protocol
   type: role
-  title: Developer Relations Lead
+  title: Developer Relations Lead (Full-time)
   organization: Jet Protocol
-  duration: August 2021 – July 2022
+  duration: Aug 2021 – Jul 2022
+  city: United States, Remote
   description: "Created developer documentation, API references, integration guides, tutorials, demos, and technical education for a DeFi lending protocol. Built feedback loops between engineers and external developers to improve documentation and developer-facing resources."
   tags: [frontier-tech, builder-ecosystems, systems]
 
 - id: nasa
   type: role
-  title: Program Manager
+  title: Program Manager (Full-time)
   organization: NASA Goddard Space Flight Center
-  duration: September 2020 – August 2021
+  duration: Sep 2020 – Aug 2021
+  city: Maryland, United States
   description: "Managed program operations, communications, reporting, and stakeholder coordination for ARSET, a global scientific training initiative. Built reusable reporting and engagement workflows for distributed technical audiences."
   tags: [systems, coordination]
 
