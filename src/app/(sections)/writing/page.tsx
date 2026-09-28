@@ -35,6 +35,7 @@ export default function WritingPage() {
             {[
               { id: "mlE9i7CsMHE", title: "Video" },
               { id: "M-TDVsuCREM", title: "Video" },
+              { id: "oJGEL1bk2NY", title: "Video" },
               { id: "J5cDeSbSN6w", title: "Video" },
               { id: "8L4wr9YIe88", title: "Founders Forge" },
             ].map((video) => (
